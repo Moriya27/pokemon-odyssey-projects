@@ -1,0 +1,24 @@
+{% for item in list %}
+{| class="move-{{item.category|lower}}"
+| class="{{item.type|lower}}-move" | '''{{item.name}}''' ✦ {{item.type|capitalize}} Type 
+| rowspan="2" class="{{item.type|lower}}-tier" | [[File:Tier {{item.tier}} icon.png|options|tier {{item.tier}}]]
+|-
+| class="{{item.type|lower}}-move" | {{item.ap}} AP, {{item.frequency}} ✦ {{item.category|capitalize}}
+|-
+| colspan="2" class="move-text" | '''Targets''': {{item.targets}} ✦ vs {{item.defense}}{% if item.hit_text or item.damage %}
+|-
+| colspan="2" class="move-text" | '''Hit''': {% if item.damage and item.damage_type %}{{item.damage}} {{item.damage_type}} {{item.type|capitalize}} Damage. {% endif %}{{item.hit_text}}
+{% endif %}{% if item.misstext %}
+|-
+| colspan="2" class="move-text" | '''Miss''': {{item.misstext}}
+{% endif %}{% if item.alwaystext %}
+|-
+| colspan="2" class="move-text" | '''Always''': {{item.alwaystext}}
+{% endif %}{% if item.specialtext %}
+|-
+| colspan="2" class="move-text" | '''Special''': {{item.specialtext}}
+{% endif %}{% if item.boosttext %}
+|-
+| colspan="2" class="move-text" | '''Boost''': {{item.boosttext}}
+{% endif %}|}
+{% endfor %}

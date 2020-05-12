@@ -1,0 +1,24 @@
+[{
+"name":"Bug Bite",
+"category":"Strike",
+"type":"Bug",
+"tier":1,
+"frequency":"At-Will",
+"ap":1,
+"hit_text": "Choose a Buff the target has. They lose that Buff, and you gain it. If the Buff has multiple Charges you only steal one Charge.",
+"damage": "2D",
+"damage_type":"Physical",
+"defense":"Evasion",
+"targets":"Melee, 1 Target"
+},
+{
+"name":"Tricksy Hobbitses",
+"category":"Trick",
+"type":"Hobbit",
+"tier":1,
+"frequency":"At-Will",
+"ap":1,
+"hit_text": "Find out what they've got in their pocketses.",
+"defense":"Evasion",
+"targets":"Melee, 1 Target"
+}]
