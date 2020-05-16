@@ -21,4 +21,5 @@
 |-
 | colspan="2" class="move-text" | '''Boost''': {{item.boosttext}}
 {% endif %}|}
+{{'{{'}}Special:WhatLinksHere/Move:{{item.name|replace(" ","_")}}|namespace=100|hidelinks=1|hideredirs=1{{'}}'}}
 {% endfor %}

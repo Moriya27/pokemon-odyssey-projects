@@ -1,0 +1,24 @@
+
+{| class="move-strike"
+| class="bug-move" | '''Bug Bite''' ✦ Bug Type 
+| rowspan="2" class="bug-tier" | [[File:Tier 1 icon.png|options|tier 1]]
+|-
+| class="bug-move" | 1 AP, At-Will ✦ Strike
+|-
+| colspan="2" class="move-text" | '''Targets''': Melee, 1 Target ✦ vs Evasion
+|-
+| colspan="2" class="move-text" | '''Hit''': 2D Physical Bug Damage. Choose a Buff the target has. They lose that Buff, and you gain it. If the Buff has multiple Charges you only steal one Charge.
+|}
+{{Special:WhatLinksHere/Move:Bug_Bite|namespace=100|hidelinks=1|hideredirs=1}}
+
+{| class="move-trick"
+| class="hobbit-move" | '''Tricksy Hobbitses''' ✦ Hobbit Type 
+| rowspan="2" class="hobbit-tier" | [[File:Tier 1 icon.png|options|tier 1]]
+|-
+| class="hobbit-move" | 1 AP, At-Will ✦ Trick
+|-
+| colspan="2" class="move-text" | '''Targets''': Melee, 1 Target ✦ vs Evasion
+|-
+| colspan="2" class="move-text" | '''Hit''': Find out what they've got in their pocketses.
+|}
+{{Special:WhatLinksHere/Move:Tricksy_Hobbitses|namespace=100|hidelinks=1|hideredirs=1}}
