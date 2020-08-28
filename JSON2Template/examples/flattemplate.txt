@@ -1,0 +1,22 @@
+{% for item in list %}{ {% set deflist = item.defpriority.split(' > ') %}
+        "timestamp": "2020-06-30T05:20:34.116Z",
+        "name": "{{item.name}}",
+        "dexnumber": "{{item.dexnumber}}",
+        "types": ["{{item.type1}}"{% if item.type2 %},"{{item.type2}}"{%endif%}],
+        "skills": ["{{item.skill1}}", "{{item.skill2}}"],
+        "badskill": "{{item.badskill}}",
+        "gifts": ["{{item.gift1}}"],
+        "initiative": {{item.initiative}},
+        "movement": {{item.movement}},
+        "size": "{{item.size}}",
+        "traits": ["{{item.trait1}}", "{{item.trait2}}"],
+        "basicattacks": ["{{item.basicattack1}}", "{{item.basicattack2}}"],
+        "roles": ["{{item.role1}}","{{item.role2}}","{{item.role3}}"],
+        "abilities": ["{{item.ability1}}","{{item.ability2}}"],
+        "smoves": ["{{item.smove1}}","{{item.smove2}}","{{item.smove3}}"],
+        "t1natmoves": ["{{item.t1natmove1}}","{{item.t1natmove3}}","{{item.t1natmove3}}"],
+        "t1tutmoves": ["{{item.t1tutmove1}}","{{item.t1tutmove2}}"],
+        "turfs": ["{{item.turf1}}"],
+        "defs": ["{{item.def1}}","{{item.def2}}","{{item.def3}}"],
+        "defpriority": ["{{deflist|join('","')}}"]
+}{% endfor %}

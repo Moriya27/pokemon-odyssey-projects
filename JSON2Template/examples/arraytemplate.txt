@@ -1,0 +1,9 @@
+{% for item in list %}
+{{item.name}}:
+{% for evo in item.evos.dex_numbers %}
+    {{ evo }},{{ item.evos.condition[loop.index0] }},{{ item.evos.name[loop.index0] }}
+{% endfor %}
+{{item.evos.name.0}}
+{{item.evos.name.1}}
+{{item.evos.name.2}}
+{% endfor %}

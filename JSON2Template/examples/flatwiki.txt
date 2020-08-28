@@ -1,0 +1,22 @@
+{ 
+        "timestamp": "2020-06-30T05:20:34.116Z",
+        "name": "Vulpix (Alolan)",
+        "dexnumber": "037-A",
+        "types": ["Ice"],
+        "skills": ["Covertness", "Sway"],
+        "badskill": "Survival",
+        "gifts": ["Placeholder"],
+        "initiative": 4,
+        "movement": 6,
+        "size": "Small",
+        "traits": ["Special Attacker", "Special Armor"],
+        "basicattacks": ["Physical Normal Melee", "Special Innate Ranged"],
+        "roles": ["Ranger","Breaker","Trickster"],
+        "abilities": ["Cute Charm","Snow Cloak"],
+        "smoves": ["Icy Wind","Confuse Ray","Extrasensory"],
+        "t1natmoves": ["Spite","Disarming Voice","Disarming Voice"],
+        "t1tutmoves": ["Night Shade","Hypnosis"],
+        "turfs": ["Tundra"],
+        "defs": ["Resolve","Evasion","Vigor"],
+        "defpriority":["Resolve","Evasion","Vigor"]
+}

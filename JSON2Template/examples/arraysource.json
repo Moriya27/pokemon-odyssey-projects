@@ -1,0 +1,10 @@
+[
+    {"name":"Bulbasaur",
+    "evos":
+        {
+            "dex_numbers":["001","002","003"],
+            "condition":["", "Level 3", "Level 6"],
+            "name":["Bulbasaur", "Ivysaur", "Venasaur"]
+        }
+    }
+]

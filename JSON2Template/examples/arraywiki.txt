@@ -1,0 +1,12 @@
+
+Bulbasaur:
+
+    001,,Bulbasaur
+
+    002,Level 3,Ivysaur
+
+    003,Level 6,Venasaur
+
+Bulbasaur
+Ivysaur
+Venasaur
