@@ -18,5 +18,5 @@
         "t1tutmoves": ["Night Shade","Hypnosis"],
         "turfs": ["Tundra"],
         "defs": ["Resolve","Evasion","Vigor"],
-        "defpriority":["Resolve","Evasion","Vigor"]
+        "defpriority": ["Resolve","Evasion","Vigor"]
 }

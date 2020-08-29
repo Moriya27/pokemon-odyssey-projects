@@ -9,3 +9,6 @@ movewiki.txt
 abilitytemplate.txt
 abilitysource.json
 abilitywiki.txt
+
+Note to self: repackage by running pyinstaller --onefile json2template.py
+Executable file will be in dist
